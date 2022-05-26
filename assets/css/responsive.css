@@ -1,0 +1,81 @@
+/* PC */
+@media(min-width :1024px){
+
+
+}
+/* tablet and mobile */
+
+@media (max-width : 1023px){
+    .btn{
+        padding: 16px 16px;
+    }
+    .contact-form .form-control{
+        padding : 15px; 
+    }
+    .socials-list{
+        font-size: 48px;
+    }
+    #footer .socials-list a{
+        padding : 0 8px;
+    }
+
+}
+/* Tablet */
+@media(min-width :740px)and (max-width : 1023){
+
+}
+
+
+
+/* Mobile : kích thước điện thoại khoảng 740px */
+@media(max-width :739px){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #header .mobile-menu-btn{
+        display: block ; 
+    }
+    /* Ẩn nút sreach */
+    #header .search-btn{
+        display : none ;
+    }
+    /* Ẩn các  mục trong khi sử dụng bằng điện thoại
+    dùng hidden để hiện thị mỗi Home vì những thẻ bị
+    lòi ra bên ngoài sẽ bị ẩn đi */
+    #header{
+        overflow: hidden;
+    }
+
+    /* Gỡ bỏ khối, để người dùng có thể dễ dàng 
+    chọn trên cùng 1 hàng dài  */
+    #nav {
+        display: block;
+    }
+    /* đưa những manu thành hàng dọc */
+    #nav > li {
+        display: block;
+    }
+    /* bỏ đi asolut để lấy giá trị mặc định */
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color : #fff;
+        padding : 5px 41px;
+    }
+    #content .member-item{
+        padding-top : 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width : 60%;
+    }
+    
+
+}
+
